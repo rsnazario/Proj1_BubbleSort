@@ -1,7 +1,7 @@
 # Bubble Sort Algorithm Project 
 
 > The following project is based on implementing the bubble sort algorithm. It mainly focused on using yield and passing a block to the method.
-> Full task description (here)[ https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks.]
+> Full task description [here](https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks)
 
 Below are two screenshots showing the methods and results
 
@@ -23,6 +23,7 @@ Below are two screenshots showing the methods and results
 - Ruby
 - VSCode
 - Terminal
+- Linter
 
 ## Getting Started
 
