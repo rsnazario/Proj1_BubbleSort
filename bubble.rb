@@ -1,13 +1,13 @@
 # ############### BUBBLE_SORT Case 1 ############# #
 
-puts "Case 1: Bubble Sort"
+puts 'Case 1: Bubble Sort'
 # Bubble sort method that sort items in ascending order
 
 def bubble_sort(arr)
   # outer loop that finds the first element in the array
-  for x in 0...arr.length
+  (0...arr.length).each do |x|
     # inner loop that compares the selected element with other elements
-    for y in x...arr.length
+    (x...arr.length).each do |y|
       # comparison operator that swaps if the element is bigger than the element its been compared
       if arr[x] >= arr[y]
         # swapping:  arr[x] will change to arr[y] and arr[y] to arr[x] if condition is met
@@ -38,13 +38,13 @@ print "Test C: #{test_1_c} \n"
  Then it sets its position as the first element. The same happens in the sequence for the second, etc.
 =end
 
-print "\nCase 2: Bubble Sort By - It accepts a block to define the parameter to sort by\n"
+print "\nCase 2: Bubble Sort By - It accepts a block to define the parameter to sort by \n"
 
 def bubble_sort_by(arr)
   # outer loop that sets the smallest element on it
-  for x in 0...arr.length
+  (0...arr.length).each do |x|
     # inner loop that traverses the array to check each element
-    for y in x...arr.length
+    (x...arr.length).each do |y|
       # comparison that takes base on the yield block as specified
       if yield(arr[x], arr[y]) > 0
         # swapping:  arr[x] will change to arr[y] and arr[y] to arr[x] if condition is met
