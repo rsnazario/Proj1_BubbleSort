@@ -11,12 +11,12 @@ Below are two screenshots showing the methods and results
 
 **Case 1**
 
-![screenshot](https://cdn.mathpix.com/snip/images/AikSOHX7-TwpnqwlOd7p4nVE7XD2zyI1rNU_0tadjLw.original.fullsize.png)
+![screenshot](https://cdn.mathpix.com/snip/images/IsgKTs6EY-z0D99kMbBgJduU8UwVPt3BHWXCTu5EFuU.original.fullsize.png)
 
 
 **Case 2**
 
-![screenshot](https://cdn.mathpix.com/snip/images/zKWzhaYo5nKsR6sYZRDldCW-INfj64uWJngD7aCgYPs.original.fullsize.png)
+![screenshot](https://cdn.mathpix.com/snip/images/v85yl9uLrrvcDg5z0jG3Ceveewy9wXCHd0u0IMr_3Xc.original.fullsize.png)
 
 ## Built With
 
