@@ -65,7 +65,7 @@ end
 
 # TEST C
 test_2_c = bubble_sort_by(%w[lenovo asus dell packardbell macbook razer alienware imac]) do |left, right|
-left.length - right.length
+  left.length - right.length
 end
 
 print "Test A: #{test_2_a}\n"
