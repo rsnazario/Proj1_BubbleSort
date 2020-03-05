@@ -7,7 +7,7 @@ Below are two screenshots showing the methods and results
 
 **Terminal**
 
-![screenshot](https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks)
+![screenshot](https://cdn.mathpix.com/snip/images/zcgpf1SM-amn_1yjXWqimqUeOhwP-pdL_0YVP_zEOso.original.fullsize.png)
 
 **Case 1**
 
