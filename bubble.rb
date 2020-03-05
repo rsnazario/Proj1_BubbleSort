@@ -16,7 +16,7 @@ def bubble_sort(arr)
     end
   end
   # Array returned when sorting is complete
-  return arr
+  arr
 end
 
 # TEST A
@@ -24,7 +24,7 @@ test_1_a = bubble_sort([4, 3, 78, 2, 0, 2])
 print "Test A: #{test_1_a} \n"
 
 # TEST B
-test_1_b = bubble_sort(%w(walter rafael elbie ariel willow lydia greg israel))
+test_1_b = bubble_sort(%w[walter rafael elbie ariel willow lydia greg israel])
 print "Test B: #{test_1_b} \n"
 
 # TEST C
@@ -33,10 +33,8 @@ print "Test C: #{test_1_c} \n"
 
 # ############### BUBBLE_SORT_BY Case 2 ############# #
 
-=begin
- The algorithm traverses through the complete array and find the smallest element.
- Then it sets its position as the first element. The same happens in the sequence for the second, etc.
-=end
+# The algorithm traverses through the complete array and find the smallest element.
+# Then it sets its position as the first element. The same happens in the sequence for the second, etc.
 
 print "\nCase 2: Bubble Sort By - It accepts a block to define the parameter to sort by \n"
 
@@ -46,30 +44,27 @@ def bubble_sort_by(arr)
     # inner loop that traverses the array to check each element
     (x...arr.length).each do |y|
       # comparison that takes base on the yield block as specified
-      if yield(arr[x], arr[y]) > 0
+      if yield(arr[x], arr[y]).positive?
         # swapping:  arr[x] will change to arr[y] and arr[y] to arr[x] if condition is met
         arr[x], arr[y] = arr[y], arr[x]
       end
     end
   end
-  return arr
+  arr
 end
 
 # TEST A
-test_2_a = bubble_sort_by(["Hi", "Hello", "Hey"]) do
-  |left, right|
+test_2_a = bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
 
 # TEST B
-test_2_b = bubble_sort_by(%w(abcde abc a abcd abcdefg ab)) do
-  |left, right|
+test_2_b = bubble_sort_by(%w[abcde abc a abcd abcdefg ab]) do |left, right|
   left.length - right.length
 end
 
 # TEST C
-test_2_c = bubble_sort_by(%w(lenovo asus dell packardbell macbook razer alienware imac)) do
-|left, right|
+test_2_c = bubble_sort_by(%w[lenovo asus dell packardbell macbook razer alienware imac]) do |left, right|
 left.length - right.length
 end
 
